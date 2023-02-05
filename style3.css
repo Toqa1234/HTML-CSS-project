@@ -1,0 +1,230 @@
+body{
+    background-color: black;
+    margin: auto;
+    display: grid;
+    padding: 0px 80px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 20vh 60vh 10vh;
+    row-gap: 20px;
+    column-gap:30px;
+}
+.head{
+    grid-column:1/4 ;
+    text-align: center;
+}
+
+.head h1{
+    margin: 10px;
+    font-size: 40px;
+    padding: 5px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f25123;
+}
+.head p{
+    font-size: 17px;
+    color: #FFFFFF80;
+    padding: auto;
+    margin: auto;
+}
+.card{
+    padding: 15px;
+    border-radius:10px ;
+    border: 1px solid darkgray;
+    
+}
+.card hr{
+    border: #FFFFFF40 solid 1px;
+}
+
+.second{
+    position: relative;
+    background-image: url(images/background_blur.png);
+    background-size: cover;
+}
+.card p ,pre{
+    color: #ffffff;
+    font-size: 25px;
+
+}
+.card p{
+    margin: auto;
+    font-size: 30px;
+}
+
+.second button{
+    background-color: #f25123;
+    color: #000000;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    position: absolute;
+    right:0px;
+    border: none;
+    border-radius: 100px 0px 0px 100px;
+    top: 30px;
+}
+.card span{
+    font-size: 16px;
+    color: #FFFFFF80;
+ }
+ ul{
+    padding: 0px;
+    list-style-position: inside;
+    list-style-image: url(images/alright.png);
+}
+ li{
+    color: #ffffff;
+    font-size: 25px;
+}
+.choose{
+    color: black;
+    background-color: #ffffff;
+    width: 160px;
+    height: 35px;
+    border: none;
+    border-radius:100px ;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.first ul , .third ul{
+    list-style-image: url(images/alright2.png);
+}
+.an{
+    color:#ffffff;
+    background-color: #000000;
+    border: 1px solid darkgray;
+}
+
+.nav{
+    grid-column:1/4 ;
+    text-align: center;
+}
+.nav button{
+    width: 15px;
+    height: 15px;
+    border-radius:100px;
+    border: none;
+    background-color:#FFFFFF80 ;
+}
+#ora{
+    background-color: #f25123;
+    outline: 2px solid #501201;
+}
+.sixth{
+    display: none;
+}
+@media screen and (max-width:1150px )and (min-width:800px){
+    body{
+        display: block;
+        padding-top: 20px;
+    }
+    .box span{
+        display: inline-block;
+        color: #ffffff;
+        font-size: 30px;
+    }
+    .box p{
+        font-size: 25px;
+        color: #ffffff80;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .box button{
+        margin-bottom: 10px;
+        background-color: #000000;
+        border: #ffffff80 2px solid;
+        height:40px;
+        width: 180px;
+        color:#F25123;
+        border-radius: 50px;
+        font-size: 18px;
+} 
+    .paragraph{
+        display: inline-block;
+     }
+    .image{
+        width: 80px;
+        height: 80px;
+        margin: 10px;
+        border-radius: 100px;
+        display: inline-block;
+    }
+    .box{
+        display: block;
+        background-color: #000000;
+        width: 80vw;
+        height: 150px;
+        border-radius: 10px;
+        border: 1px solid darkgray;
+        box-shadow:none;
+}
+    .pic{
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+        border: 3px solid #000000 ;
+       
+    }
+}
+@media screen and (max-width:800px ){
+    body{
+        display: block;
+        padding-top: 20px;
+    }
+
+
+    .sixth{
+        display: block;
+
+    }
+    .box span{
+        display: inline-block;
+        color: #ffffff;
+        font-size: 30px;
+    }
+    .box p{
+        margin: auto;
+        font-size: 23px;
+        color: #ffffff80;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .box button{
+        display: block;
+        background-color: #000000;
+        border: #ffffff80 2px solid;
+        outline: none;
+        height:40px;
+        width: 180px;
+        color:#F25123;
+        margin-left: 10px;
+        border-radius: 100px;
+        font-size: 18px;
+    } 
+    .paragraph{
+        display: inline-block;
+     }
+    .image{
+        width: 80px;
+        height: 80px;
+        margin: 10px;
+        border-radius: 100px;
+        display: inline-block;
+    }
+    .box{
+        background-color: #000000;
+        width: 70vw;
+        height: 150px;
+        border-radius: 10px;
+        border: 1px solid darkgray;
+        box-shadow:none;
+}
+    .pic{
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+        border: 3px solid #02A3F1;
+    }
+
+}
